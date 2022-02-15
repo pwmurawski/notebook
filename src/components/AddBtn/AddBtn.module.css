@@ -1,0 +1,11 @@
+.btn
+{
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.btn:hover
+{
+    fill: rgba(13, 172, 85, 0.637);
+}

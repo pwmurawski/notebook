@@ -1,0 +1,45 @@
+.noteDemo
+{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 20px;
+    box-shadow: black 0 3px 5px 0px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.noteDemo__header
+{
+    background-color: lightskyblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+
+.noteDemo__title
+{
+    background: transparent;
+    border: none;
+    padding: 10px;
+}
+
+.noteDemo__title:focus
+{
+    outline: none;
+}
+
+.noteDemo__desc
+{
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 5px;
+}

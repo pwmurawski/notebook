@@ -1,0 +1,7 @@
+.menu{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100px;
+    right: 50px;
+    bottom: 100px;
+}
